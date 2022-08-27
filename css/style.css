@@ -116,11 +116,13 @@ button{
     
 
 }
-button a {
+a {
     text-decoration: none;
     color: white;
 }
-
+a:hover {
+    color: white;
+}
 
 button:hover {
     background-color: #004265;
@@ -140,7 +142,7 @@ button:hover {
     position: relative;
 }
 
-.port {
+#portifolio {
     height: 800px;
     width: 100%;
     background-size: 400% 400%;
@@ -151,7 +153,7 @@ button:hover {
     text-align: center;
     position: relative;
     text-decoration: none;
-    background: linear-gradient(-0deg, #def5a4, #a5b877, #d8ff77a4, #f4ffda);
+    background: linear-gradient(-45deg, #b1b1b1e5, #ffffffe8, #b1b1b1e5, #ffffffe8);
     background-size: 400% 400%;
     display: flex;
     animation: backgroundTransition 8s ease-in-out infinite;
@@ -168,7 +170,7 @@ button:hover {
     }
 }
 
-.info {
+#contato {
     height: 600px;
     width: 100%;
     background: #212529;
@@ -182,22 +184,22 @@ button:hover {
     text-decoration: none;
 }
 
-/*cards*/
-/* .containerr {
-    width: 100vh;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 3rem 0;
-} */
+/* cards*/
 
 .cardd-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
+}
+.cardcolor {
+    width: 400px;
+    margin-right: 5px;
+    margin-top: 20px;
+    background: #004265;
+}
+.cardcolor2 {
+    background: radial-gradient(#95bc33, #004265 70%);
 }
 
 .cardd {
@@ -247,7 +249,6 @@ button:hover {
     color: #222222;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
     transition: 0.3s;
 }
 
@@ -258,6 +259,7 @@ button:hover {
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.3s;
+    margin-bottom: 150px;
 }
 
 .cardd:hover {
@@ -271,10 +273,11 @@ button:hover {
 }
 
 .cardd:hover > .cardd-wrapper p {
-    font-size: 14px;
+    font-size: 18px;
     opacity: 1;
     visibility: visible;
 }
+
 
 /*footer*/ 
 
